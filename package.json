@@ -1,8 +1,19 @@
 {
-  "name": "temp-tabs",
-  "version": "1.0.0",
+  "name": "codenomad",
+  "version": "0.1.0",
+  "description": "CodeNomad - Portable Cloud Development Environment mobile application",
   "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts",
+    "doctor": "expo-doctor"
+  },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
     "expo": "~58.0.23",
     "expo-constants": "~58.0.15",
     "expo-font": "~58.0.11",
@@ -22,14 +33,10 @@
     "react-native-worklets": "0.13.0"
   },
   "devDependencies": {
+    "@types/node": "^26.6.6",
     "@types/react": "~19.3.0",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.3"
-  },
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
   },
   "private": true
 }
