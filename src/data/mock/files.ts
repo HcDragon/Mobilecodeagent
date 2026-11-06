@@ -79,3 +79,4 @@ export const MOCK_PROJECT_FILES: FileNode[] = [
     contentSample: `# Portfolio Web\n\nBuilt with React, Vite, and Tailwind CSS.\nManaged via CodeNomad cloud workspace.`,
   },
 ];
+

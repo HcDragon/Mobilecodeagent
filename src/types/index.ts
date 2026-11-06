@@ -65,3 +65,4 @@ export interface TerminalLog {
   type: 'info' | 'output' | 'error' | 'command' | 'system';
   timestamp: string;
 }
+

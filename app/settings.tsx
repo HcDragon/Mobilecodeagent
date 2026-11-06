@@ -297,3 +297,4 @@ const styles = StyleSheet.create({
     fontWeight: typography.weight.semibold,
   },
 });
+

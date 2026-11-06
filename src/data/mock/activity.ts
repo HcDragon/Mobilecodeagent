@@ -50,3 +50,4 @@ export const MOCK_ACTIVITIES: ActivityItem[] = [
     type: 'workspace',
   },
 ];
+

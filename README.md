@@ -99,3 +99,4 @@ npx expo export --platform android
 - Repository code is never executed on the mobile device.
 - All secrets and provider API keys remain server-side in later phases.
 - Strict TypeScript verification and responsive safe areas ensure cross-platform compatibility across iOS and Android.
+

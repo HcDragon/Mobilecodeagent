@@ -38,3 +38,4 @@ export const MOCK_TERMINAL_LOGS: TerminalLog[] = [
     timestamp: '23:45:11',
   },
 ];
+

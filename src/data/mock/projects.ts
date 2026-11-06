@@ -65,3 +65,4 @@ export const MOCK_PROJECTS: Project[] = [
     workspaceStatus: 'error',
   },
 ];
+
